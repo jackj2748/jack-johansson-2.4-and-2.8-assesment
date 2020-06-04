@@ -7,12 +7,15 @@
     padding: 0;
 }
 
-
+header{
+  background-color:#444444;
+}
 
 nav{
     background-color:#444444;
      text-align: center;
-     display: flex;
+     display: inline-block;
+     width: 100%;
 }
 
 nav ul {
@@ -21,7 +24,8 @@ nav ul {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     text-align: center;
-    display: flex;
+    display: inline-block;
+
 }
 
 #logo{
@@ -30,7 +34,7 @@ nav ul {
 }
 
 nav li, nav a{
-    display: flex;
+    display: inline-block;
     text-align: center;
     padding: 10px 10px;
     color: black;
@@ -41,7 +45,6 @@ nav li, nav a{
 body{
   margin:0;
   font-family: 'Bebas Neue', cursive;
-  helvetica, sans-serif;
   font-size: 25px;
   color:#57a145;
   line-height:1.6;
@@ -70,10 +73,31 @@ body{
   padding:100px;
 }
 
+#showcase2{
+  background-image:url('images/code.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase2 h1{
+  font-size: 100px;
+  line-height: 1.2;
+}
+
+#showcase2 p{
+  padding:100px;
+}
+
 
 #secton-a{
   padding:0 20px;
-  background-image:url('images/code.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -97,7 +121,7 @@ body{
 }
 
 #section-c div{
-  padding: 20px;
+  padding: 30px;
 }
 
 #section-c .box-1, #section-c .box-3{
@@ -159,9 +183,28 @@ footer{
     font-size: 20px;
 }
 
+#ytvid{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#vidtext{
+  text-align: center;
+}
+
+
 @media only screen and (max-width: 1100px) {
-   nav{
+   li{
     height: 20px;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+   li{
+    height: 100px;
     width: 100%;
     display: block;
   }
