@@ -98,7 +98,27 @@ body{
 #showcase2 p{
   padding:100px;
 }
+#showcase3{
+  background-image:url('images/hacker-man.jpg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
 
+#showcase3 h1{
+  font-size: 100px;
+  line-height: 1.2;
+}
+
+#showcase3 p{
+  padding:100px;
+}
 
 #secton-a{
   padding:0 20px;
@@ -211,7 +231,45 @@ footer{
 #vidtext2{
   font-size: 30px;
   padding: 20px;
+  text-align: center;
 }
+#what-is-encryption{
+  font-size: 40px;
+  text-align: center;
+}
+#cipherdiv{
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+   #ytvid{
+    height: 50px;
+    width: 100%;
+    display: block;
+  }
+}
+@media only screen and (max-width: 1100px) {
+   #what-is-encryption{
+    height: 50px;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    padding-bottom: 500px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+   #what-is-encryption{
+    height: 50px;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    padding-bottom: 350px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
    #email{
     height: 50px;
@@ -234,7 +292,9 @@ footer{
     height: 50px;
     width: 100%;
     display: block;
-    font-size: 30px;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
@@ -268,6 +328,38 @@ footer{
     width: 100%;
     display: block;
     font-size: 45px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+   #vidtext2{
+    height: 50px;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+   #vidtext2{
+    height: 50px;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+   #footer{
+    height: 50px;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+   #footer{
+    height: 50px;
+    width: 100%;
+    display: block;
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 1100px) {
