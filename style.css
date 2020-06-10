@@ -10,7 +10,9 @@
 header{
   background-color:#444444;
 }
-
+h1{
+  color: white;
+}
 nav{
     background-color:#444444;
      text-align: center;
@@ -44,11 +46,12 @@ nav li, nav a{
 
 #aaedesc{
   font-size: 70px;
+  color: white;
 }
 
 body{
   margin:0;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue'cursive;
   font-size: 25px;
   color:#57a145;
   line-height:1.6;
@@ -117,6 +120,28 @@ body{
 }
 
 #showcase3 p{
+  padding:100px;
+}
+
+#showcase4{
+  background-image:url('images/learn.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase4 h1{
+  font-size: 100px;
+  line-height: 1.2;
+}
+
+#showcase4 p{
   padding:100px;
 }
 
@@ -212,6 +237,7 @@ footer{
 
 #vidtext{
   text-align: center;
+  color:#57a145;
 }
 
 #vidwrap{
@@ -232,6 +258,7 @@ footer{
   font-size: 30px;
   padding: 20px;
   text-align: center;
+  color:#57a145;
 }
 #what-is-encryption{
   font-size: 40px;
